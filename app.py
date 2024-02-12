@@ -63,7 +63,7 @@ def main():
         """)
 
         # Image
-        st.image("images/logo.png", alt="About Image", caption="JobSkills Logo")
+        st.image("images/logo.png", caption="JobSkills Logo")
 
 if __name__ == '__main__':
     main()
