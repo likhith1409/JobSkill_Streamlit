@@ -39,7 +39,7 @@ def main():
         skills = user_input_skills.strip().split(',')[:7]
 
         # Load CSV data
-        file_path = '/content/jobdetails.csv'
+        file_path = 'jobdetails.csv'
         data = read_csv(file_path)
 
         # Submit button
@@ -63,7 +63,7 @@ def main():
         """)
 
         # Image
-        st.image("images/logo.png", alt="About Image", caption="JobSkills Logo")
+        st.image("logo.png", alt="About Image", caption="JobSkills Logo")
 
 if __name__ == '__main__':
     main()
