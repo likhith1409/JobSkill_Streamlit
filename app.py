@@ -35,7 +35,7 @@ def main():
 
     if page == "Home":
         # Input bar for skills
-        user_input_skills = st.text_input("Enter your skills (comma-separated, up to 7):")
+        user_input_skills = st.text_input("Enter your skills (comma-separated):")
         skills = user_input_skills.strip().split(',')[:7]
 
         # Load CSV data
@@ -63,7 +63,7 @@ def main():
         """)
 
         # Image
-        st.image("logo.png", alt="About Image", caption="JobSkills Logo")
+        st.image("images/logo.png", alt="About Image", caption="JobSkills Logo")
 
 if __name__ == '__main__':
     main()
