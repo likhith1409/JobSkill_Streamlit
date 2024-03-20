@@ -28,7 +28,8 @@ Run the Streamlit app:
    streamlit run app.py
 
 
-Open the provided URL in your browser, enter your skills in the input bar, click “Submit,” and explore matching job titles.
+Open the provided URL in your browser, enter your skills in the input bar with small letters and (,) seperated, click “Submit,” and explore matching job titles.
+Example: python,java
 
 ### About Us
 JobSkills aims to revolutionize the way you connect your skills with the perfect job titles. Our platform simplifies the job search process, allowing you to effortlessly showcase your skills and discover relevant job opportunities.
