@@ -35,7 +35,7 @@ def main():
 
     if page == "Home":
         # Input bar for skills
-        user_input_skills = st.text_input("Enter your skills (comma-separated):")
+        user_input_skills = st.text_input("Enter your skills (comma-separated) and small letters like(python,java):")
         skills = user_input_skills.strip().split(',')[:7]
 
         # Load CSV data
