@@ -16,7 +16,7 @@ Welcome to JobSkills, your personalized career exploration platform. JobSkills h
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/JobSkills.git
+   git clone https://github.com/likhith1409/JobSkills.git
    cd JobSkills
 ### Install dependencies:
    pip install -r requirements.txt
